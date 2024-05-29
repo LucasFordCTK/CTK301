@@ -1,0 +1,33 @@
+  #header {
+    color :orange;
+    background-color: black; 
+  }
+  .h2 {
+    color :aqua;
+    background-color: black;
+  }
+
+  .h3 {
+    color :green;
+    background-color: black;
+  }
+  p{
+    color: red;
+    background-color: black;
+  }
+  .spanstyle {
+    color: red;
+  }
+  #divexample{
+    color: blue;
+  }
+  
+  a:link {
+    color: red;
+  }
+  a:visited {
+    color: green;
+  }
+  a:hover {
+    color: yellow;
+  }
