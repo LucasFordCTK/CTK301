@@ -1,0 +1,68 @@
+#header {
+    color :orange;
+    background-color: black; 
+  }
+  .h2 {
+    color :orange;
+    background-color: black;
+  }
+
+  .h3 {
+    color :orange;
+    background-color: black;
+  }
+  p{
+    color: red;
+    background-color: black;
+  }
+  .spanstyle {
+    color: red;
+  }
+  #divexample{
+    color: blue;
+  }
+  
+  a:link {
+    color: red;
+  }
+  a:visited {
+    color: green;
+  }
+  a:hover {
+    color: yellow;
+  }
+ 
+  body{
+    font-family: Arial
+}
+.Text {
+    text-align: center;
+}
+.Justify{
+    text-align: justify;
+}
+#header{
+font-style: italic;
+font-weight: normal;
+}
+.h2{
+  font-style: italic;
+font-weight: normal;
+}
+.h3{
+  font-style: italic;
+font-weight: normal;
+}
+
+.img{
+  border: 30px solid black;
+    padding: 20px;
+    
+    background-color: yellow;
+}
+body{
+  background-color: grey;
+  background-image: url(Banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
