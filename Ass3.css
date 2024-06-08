@@ -69,15 +69,24 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
-#content img {
-    width: 100%;
+#content img.left-image {
+    float: left;
+    margin-right: 20px;
     border: 1px solid black;
     margin-bottom: 20px;
 }
 
-#content p {
+#content .text-next-to-image {
+    overflow: auto;
+}
+
+#content .text-next-to-image p {
     text-align: justify;
     margin-bottom: 20px;
+}
+
+#content .bold-text {
+    font-weight: bold;
 }
 
 #content p a {
@@ -98,6 +107,7 @@ footer {
     font-style: italic;
     text-align: center;
     padding: 10px;
-    border-top: 1px solid black;
+    background: red;
+    color: white;
     margin-top: 20px;
 }
