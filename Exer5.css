@@ -1,0 +1,136 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d32f2f;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    transition: transform 0.3s;
+}
+
+header h1:hover {
+    transform: scale(1.1);
+}
+
+.main-content {
+    display: flex;
+    padding: 2em;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.intro {
+    flex: 1;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+}
+
+.profile-pic:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.intro p {
+    font-size: 1em;
+    color: #333;
+}
+
+.content {
+    flex: 2;
+}
+
+.works {
+    flex: 1;
+    text-align: center;
+}
+
+.works h2 {
+    font-size: 2em;
+    color: #d32f2f;
+    transition: color 0.3s;
+}
+
+.works h2:hover {
+    color: #b71c1c;
+}
+
+.works button {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    margin: 0.5em;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.works button:hover {
+    background-color: #b71c1c;
+    transform: scale(1.05);
+}
+
+.section {
+    text-align: center;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+.section img.icon {
+    width: 100px;
+    display: block;
+    margin: 0 auto 1em;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.section img.icon:hover {
+    transform: rotate(20deg);
+}
+
+.section p {
+    text-align: justify;
+    margin: 0 auto;
+    padding: 0 1em;
+    max-width: 800px;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.social-icon {
+    color: #d32f2f;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #b71c1c;
+}
